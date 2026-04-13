@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S6</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Usuário desconectado</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;User profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article information</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tag</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign In page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C47</id>
+				<title>Login with valid email and password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C49</id>
+				<title>Login with invalid credentials</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C48</id>
+				<title>Login attempt with empty fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Sing in” form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Email” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>“Password” field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Sing In] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>“Link” Need an account?</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign Up page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>“Sign up” Form</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C52</id>
+				<title>Sign up with valid data</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C53</id>
+				<title>Successful registration redirects to Finish Registration page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C54</id>
+				<title>Email verification is sent after registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C55</id>
+				<title>Sign up using Enter key</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Username” Field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C56</id>
+				<title>Valid username</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C57</id>
+				<title>Username already exists</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C58</id>
+				<title>Username less than 3 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C59</id>
+				<title>Username more than 40 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C60</id>
+				<title>Username with special characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C61</id>
+				<title>Username starting with a number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C62</id>
+				<title>Username with spaces</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C63</id>
+				<title>Username with non-printing characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Email” Field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C64</id>
+				<title>Valid email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Critical</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C65</id>
+				<title>Email already exists</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C66</id>
+				<title>Email without “@”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C67</id>
+				<title>Email without domain</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C68</id>
+				<title>Email invalid format</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>“Password” Field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C69</id>
+				<title>Valid password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C70</id>
+				<title>Password without uppercase letter</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C71</id>
+				<title>Password without number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C72</id>
+				<title>Password without special character</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C73</id>
+				<title>Password less than 8 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C74</id>
+				<title>Password more than 30 characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C75</id>
+				<title>Password with non-printing characters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>“Confirm Password” Field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C76</id>
+				<title>Confirm password matches password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C77</id>
+				<title>Confirm password does not match password</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C78</id>
+				<title>Confirm password empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Sign up] Button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C82</id>
+				<title>Sign up with empty fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C83</id>
+				<title>Button disabled when required fields are empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C84</id>
+				<title>Click Sign up with valid data</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>“Link.” Have an account?</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C85</id>
+				<title>Redirect to Sign In page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<automation>No automation attached</automation>
+												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User profile</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Posting date</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow username] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Favorite article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Coments</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Comment text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User profile link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Post date</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>User page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User banner</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow:usuário_270]</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>My post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article view</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Favorite post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article view</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Usuário conectado</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Home page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Global Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;User profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Like] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article information</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Your Feed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article preview</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Popular tags</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Tag</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>New Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;New Article&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Article title&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Article description&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Article body&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Tags&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Publish Article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Settings page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Settings&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Profile image&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Username&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Bio&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Update Settings] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Logout] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>User page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User profile</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>User avatar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Username</name>
+		<description></description>
+									</section>
+			<section>
+		<name>User bio</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Follow] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>My Articles tab</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Favorited Articles tab</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article information</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Article title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Author</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Publication date</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Article body</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Article actions</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Edit Article] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Delete Article] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Comments section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Comment field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Post Comment] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Comment</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
